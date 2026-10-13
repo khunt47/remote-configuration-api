@@ -1,6 +1,4 @@
 const express = require('express');
-const axios = require('axios');
-const path = require('path');
 const { Datastore } = require('@google-cloud/datastore');
 
 const app = express();
